@@ -1,4 +1,4 @@
-name: Daily Update ARL Tools
+name: Daily Update Tools
 
 on:
   push:
