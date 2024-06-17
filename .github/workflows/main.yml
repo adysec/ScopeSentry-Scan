@@ -19,8 +19,6 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
-    - name: Mkdir Tools
-      run: mkdir tools 
     - name: Update Ksubdomain
       run: |
         wget https://github.com/boy-hack/ksubdomain/releases/download/v1.9.5/KSubdomain-v1.9.5-linux.tar
